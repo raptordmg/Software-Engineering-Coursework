@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="429.0" prefWidth="586.0" xmlns="http://javafx.com/javafx/8.0.271" xmlns:fx="http://javafx.com/fxml/1" fx:controller="stephen_wallace.software_engineering.assessment.Controller">
+
+   <cursor>
+      <Cursor fx:constant="DEFAULT" />
+   </cursor>
+   <TextField id="inputHeader" fx:id="inputHeader" layoutX="28.0" layoutY="21.0" prefHeight="25.0" prefWidth="531.0" promptText="Input Header" />
+   <TextArea fx:id="messageBody" layoutX="28.0" layoutY="56.0" prefHeight="144.0" prefWidth="531.0" promptText="Input Message Body" />
+   <TextArea fx:id="processedMessage" editable="false" layoutX="28.0" layoutY="210.0" prefHeight="144.0" prefWidth="531.0" promptText="Processed Message Body" />
+   <Label layoutX="28.0" layoutY="363.0" text="Detected Message Type: " />
+   <Label id="messageType" fx:id="messageType" layoutX="162.0" layoutY="363.0" prefHeight="17.0" prefWidth="88.0" />
+   <Button layoutX="34.0" layoutY="391.0" mnemonicParsing="false" onAction="#readFileData" text="Open File" />
+   <Button layoutX="480.0" layoutY="391.0" mnemonicParsing="false" onAction="#endSession" text="End Session" />
+   <Button layoutX="366.0" layoutY="391.0" mnemonicParsing="false" onAction="#processMessages" text="Process Message" />
+</AnchorPane>

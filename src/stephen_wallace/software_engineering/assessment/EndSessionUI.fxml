@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="467.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.271" xmlns:fx="http://javafx.com/fxml/1" fx:controller="stephen_wallace.software_engineering.assessment.EndSessionController">
+   <AnchorPane layoutX="67.0" layoutY="-12.0" prefHeight="532.0" prefWidth="600.0" AnchorPane.bottomAnchor="-60.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="-12.0">
+      <TextArea id="trendingListBox" fx:id="trendingListBox" editable="false" layoutX="14.0" layoutY="44.0" prefHeight="108.0" prefWidth="573.0" />
+      <TextArea id="mentionsListBox" fx:id="mentionsListBox" editable="false" layoutX="14.0" layoutY="183.0" prefHeight="108.0" prefWidth="573.0" />
+      <TextArea id="sirListBox" fx:id="sirListBox" editable="false" layoutX="14.0" layoutY="323.0" prefHeight="108.0" prefWidth="573.0" />
+      <Button layoutX="541.0" layoutY="441.0" mnemonicParsing="false" onAction="#close" text="Close" />
+      <Label layoutX="23.0" layoutY="21.0" text="Trending list:" />
+      <Label layoutX="23.0" layoutY="159.0" text="Mentions list:" />
+      <Label layoutX="23.0" layoutY="300.0" text="SIR list:" />
+   </AnchorPane>
+</AnchorPane>

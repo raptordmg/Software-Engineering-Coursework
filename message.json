@@ -1,0 +1,52 @@
+[ {
+  "header" : "S123456789",
+  "body" : "+447709536836 Hello"
+}, {
+  "header" : "S123678907",
+  "body" : "+447709536836 toes"
+}, {
+  "header" : "S123456789",
+  "body" : " +447745462583 This is an SMS message input from a file"
+}, {
+  "header" : "T123456789",
+  "body" : " @someone This is a Twitter message input from a file"
+}, {
+  "header" : "E123456789",
+  "body" : " someone@example.com This is an Email message input from a file"
+}, {
+  "header" : "T123456789",
+  "body" : "bob How are you doing"
+}, {
+  "header" : "S123456789",
+  "body" : "+447709536836 Hi"
+}, {
+  "header" : "E123456789",
+  "body" : "someone@napier.com SIR 12/04/2020 Staff Attack"
+}, {
+  "header" : "E123456789",
+  "body" : "someone@napier.com SIR 12/04/2020 Theft"
+}, {
+  "header" : "E123456789",
+  "body" : "someone@bank.com SIR 20/05/2034 99-99-99 Theft"
+}, {
+  "header" : "E123456789",
+  "body" : "someone@bank.com SIR 20/05/2034 99-99-99 Theft"
+}, {
+  "header" : "E123456789",
+  "body" : "someone@bank.com SIR 20/05/2034 99-99-99 Theft"
+}, {
+  "header" : "E123456789",
+  "body" : "some@bank.com SIR 20/09/2030 99-99-99 Theft"
+}, {
+  "header" : "E123456789",
+  "body" : "test@example.com Hello <URL Quarantined>"
+}, {
+  "header" : "E123456789",
+  "body" : "test@example.com Hello www.google.com"
+}, {
+  "header" : "T123456789",
+  "body" : "@example Hello http://www.google.com LOL <Laughing out loud>"
+}, {
+  "header" : "E123456789",
+  "body" : "bank@example.com SIR 20/02/2009 99-99-98 Theft"
+} ]
